@@ -1,0 +1,207 @@
+/* Colors */
+.bg-red-400 {
+  background-color: #f87171; /* Red-400 color */
+}
+.text-red-400 {
+  color: #f87171;
+}
+.bg-cyan-100 {
+  background-color: #cff4fc; /* Cyan-100 color */
+}
+
+.yellow-bg {
+  background-color: #ffed4a; /* Yellow-300 color */
+}
+.yellow-text {
+  color: #ffed4a;
+}
+
+.purple-bg {
+  background-color: #e9d8fd;
+}
+
+.mint-bg {
+  background-color: #bbffca;
+}
+
+/* Containers */
+.header-container,
+.about-container,
+.project-container {
+  margin: 0;
+  padding: 100px 0 100px;
+}
+.contact-container {
+  margin: 0;
+  padding: 50px 0 50px;
+}
+.header-container {
+  text-align: center;
+}
+
+.card-img-top {
+  width: 100%;
+  max-height: 30rem;
+  object-fit: cover;
+}
+
+/* Navbar Links */
+.nav-link.active[aria-current="page"] {
+  color: #ffed4a;
+}
+
+.nav-link.active[aria-current="page"]:hover {
+  color: #09a5ff;
+}
+
+.navbar-nav.justify-content-end {
+  margin-left: auto;
+}
+
+/* Text Font */
+h1,
+h2,
+h3 {
+  font-family: "Lilita One", serif;
+}
+
+.about-btn,
+.project-btn,
+.nav-link,
+.card-body,
+h4,
+.contact-card h3,
+input,
+textarea {
+  font-family: "Gloria Hallelujah", serif;
+}
+
+/* Text Styling */
+h1 {
+  font-size: 62px;
+  text-shadow: 4px 2px 4px #ff6969;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.title {
+  font-size: 40px;
+}
+
+.card-title,
+.highlight {
+  color: #09a5ff;
+}
+
+.about-body {
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.navbar-title {
+  font-size: 26px;
+  color: #ffff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Smaller heading styling */
+h2 {
+  font-size: 62px;
+  padding: 0px 0px 40px;
+}
+
+.project-title {
+  text-shadow: 2px 2px 3px #62faff;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #d08eff;
+}
+
+.about-title {
+  text-shadow: 2px 2px 3px #f1ff52;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #85fbff;
+}
+
+/* Cards */
+.about-card {
+  box-shadow: 0 4px 6px #f30a48, 0 5px 7px #000000;
+  padding: 15px 15px;
+}
+
+.project-card {
+  background-color: #e9d8fd;
+}
+
+.contact-card {
+  box-shadow: 0 4px 6px #f30a48, 0 5px 7px #000000;
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Button Styling */
+
+.about-btn {
+  padding: 15px 5px;
+  width: 175px;
+  font-size: 16px;
+  margin: 20px 0 27px;
+}
+
+.project-btn {
+  background-color: #bbffca;
+  color: #f87171;
+  padding: 12px 20px;
+  width: 150px;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+.icon-btn:hover {
+  background-color: #ffed4a;
+}
+
+.about-btn:hover {
+  background-color: #f87171;
+  color: #ffed4a;
+}
+
+.project-btn:hover {
+  background-color: #f87171;
+  color: #bbffca;
+}
+
+/* Contact Icons */
+i {
+  color: #ffff;
+}
+
+i:hover {
+  color: #204dff;
+}
+
+/* Carousel Indicators */
+span.carousel-control-prev-icon,
+span.carousel-control-next-icon {
+  background-color: #000000;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #ff0000;
+}
+
+.carousel-indicators .active {
+  background-color: #ffed4a;
+}
+.carousel-control-prev {
+}
